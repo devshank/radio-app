@@ -1,0 +1,34 @@
+name: radio_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  # sdk: ^3.1.1
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  flutter_gif: ^0.0.4
+  audioplayers: ^0.20.1
+  # just_audio: ^0.12.0
+  # assets_audio_player: ^3.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/music.mp3
+    - assets/images/music.mp3
